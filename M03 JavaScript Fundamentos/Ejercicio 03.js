@@ -35,14 +35,14 @@ function esPar(num) {
    // Retorna True si "num" es par.
    // De lo contrario, retorna False.
    // Tu código:
-   return (num % 2 == 0)
+   return (num % 2 === 0)
 }
 
 function esImpar(num) {
    // Retorna True si "num" es impar.
    // De lo contrario, retorna False.
    // Tu código:
-   return (num % 3 == 1)
+   return (num % 2 !== 0)
 }
    
 
